@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Trispace:wght@200&display=swap');
+
 body {
     font-family: 'Fjalla One', sans-serif;
 }
-body {
-    background-image :url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg')
 
+body {
+    background-image: url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg')
 }
 
 
@@ -21,10 +22,17 @@ li {
     list-style: none;
 }
 
+.primeraSeccion {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background: radial-gradient(#342F29, #3f3932, #27231f, #000000);
+}
 
 p {
     color: white;
-    
+text-align: center;
 }
 
 
@@ -32,25 +40,26 @@ a {
     color: rgb(231, 216, 216);
 }
 
- main {
+main {
     color: white;
- }
+}
 
- footer {
+footer {
     color: white;
- }
+}
 
- legend {
+legend {
     color: white;
- }
- label {
+}
+
+label {
     color: white;
- }
+}
 
 
 
-.cajaFormulario{
-   
+.cajaFormulario {
+
     border: 2px white;
 }
 
@@ -59,13 +68,8 @@ a {
     align-items: center;
     justify-content: center;
 }
-.primeraSeccion {
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;  
-    background: radial-gradient(#968d8b,rgb(65, 60, 60) , rgb(10, 10, 10) , #000000);
-}
+
+
 
 
 li {
@@ -76,65 +80,68 @@ li {
 
 
 img {
-  
+
     width: 50%;
 }
 
 .cambiamosDisplay {
- display: block;
+    display: block;
 }
+
 footer {
     text-align: center;
 }
 
 main {
-   
+
     text-align: center;
 }
 
 
 .cajaFormulario {
-    
+
     width: 320px;
     border: 2px rgb(255, 255, 255) solid;
 
 
 }
 
-  
-  
-  label {
+
+
+label {
     display: inline-block;
-    
+
     text-align: center;
-  }
-  
-  legend {
+}
+
+legend {
     text-align: center;
-  }
-  input,
-  textarea {
-   
+}
+
+input,
+textarea {
+
     font: 1em sans-serif;
     width: 250px;
     border: 3px solid rgb(78, 78, 78);
-  }
-  
- .inPut {
+}
+
+.inPut {
     font: 1em sans-serif;
     width: 250px;
-   margin-left: 33px;
- }
-  
-  
- 
-  
+    margin-left: 33px;
+}
+
+
+
+
 
 
 @keyframes texto {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 100%;
     }
@@ -144,4 +151,4 @@ footer {
     animation-name: texto;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-} 
+}

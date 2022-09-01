@@ -1,12 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Trispace:wght@200&display=swap');
+
 body {
     font-family: 'Fjalla One', sans-serif;
 }
 
 body {
-    background-image :url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg')
-
+    background-image: url('../img/57-576139_grunge-black-background-background-gru-grunge-black-grunge.jpg')
 }
 
 
@@ -14,7 +13,8 @@ body {
 ul {
     list-style: none;
 }
-li{
+
+li {
     list-style: none;
 }
 
@@ -22,12 +22,10 @@ li{
     background-color: rgb(8, 8, 8);
     text-align: center;
     font-weight: bold;
-    font-size: 25px;  
-    background: radial-gradient(#968d8b,rgb(65, 60, 60) , rgb(10, 10, 10) , #000000);
-  
-    
-  
-    
+    font-size: 25px;
+    background: radial-gradient(#342F29, #3f3932, #27231f, #000000);
+
+
 }
 
 
@@ -38,8 +36,8 @@ li{
 
 h1 {
     color: rgb(236, 236, 236);
-    
-    
+
+
 }
 
 
@@ -48,50 +46,53 @@ h2 {
     color: white;
     text-align: center;
 }
+
 h3 {
     color: white;
 }
 
 p {
     color: white;
-    
+
 }
 
 
 
-h4{
+h4 {
     color: white;
 }
+
 a {
     color: rgb(231, 216, 216);
 }
 
- main {
+main {
     color: white;
- }
+}
 
- footer {
+footer {
     color: white;
- }
+}
 
 h3 {
     text-align: center;
 }
 
- img {
-  
+img {
+
     width: 50%;
 }
 
 .cambiamosDisplay {
- display: block;
+    display: block;
 }
+
 footer {
     text-align: center;
 }
 
 main {
-   
+
     text-align: center;
 }
 
@@ -102,6 +103,7 @@ main {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 100%;
     }
@@ -111,9 +113,4 @@ footer {
     animation-name: texto;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-} 
-
-
-
-
-
+}
